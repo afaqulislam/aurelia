@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #0A0A0A;
+  --color-gold: #C5A059;
+  --color-gold-muted: #A38448;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-serif: "Playfair Display", serif;
+
+  /* Fluid Typography Foundations */
+  --text-fluid-lg: clamp(2.5rem, 8vw + 1rem, 8rem);
+  --text-fluid-md: clamp(2rem, 5vw + 1rem, 4rem);
+}
+
+@layer base {
+  body {
+    @apply bg-obsidian text-white font-sans antialiased selection:bg-gold selection:text-obsidian overflow-x-hidden;
+    /* Ensure touch targets meet accessibility standards across the board */
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button, a {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center cursor-pointer;
+  }
+
+  /* Reset standard button centering for layout non-icons */
+  .no-target-center {
+    @apply flex-none block min-h-0 min-w-0;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-obsidian/70 border-b border-gold/20;
+}
+
+.glass-header {
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(197, 160, 89, 0.1);
+}
+
+.editorial-title {
+  @apply font-display tracking-tight leading-[0.9];
+}
+
+.product-image {
+  background: linear-gradient(135deg, #1A1A1A 0%, #0A0A0A 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.concierge-fab {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(197, 160, 89, 0.2);
+}
+
+/* Scroll Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Scrollbar for Luxury Experience */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-obsidian;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gold/20 hover:bg-gold/40 transition-colors;
+}
+
+/* Utilities for better mobile handling */
+@media (max-width: 768px) {
+  .mobile-p-top { padding-top: 100px; }
+  .mobile-text-balance { text-wrap: balance; }
+}
+
