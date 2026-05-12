@@ -135,6 +135,7 @@ export default function ChatConcierge() {
           onClick={() => setIsOpen(prev => !prev)}
           className="w-16 h-16 bg-[#0A0A0A] border border-gold rounded-full flex items-center justify-center group hover:bg-gold transition-all duration-500"
           id="concierge-fab"
+          aria-label="Open AI Styling Concierge"
         >
           <MessageSquare size={24} className="text-gold group-hover:text-black transition-colors" />
         </motion.button>

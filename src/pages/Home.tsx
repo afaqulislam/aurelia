@@ -122,8 +122,11 @@ export default function Home({ addToCart }: HomeProps) {
                   
                   {/* Quick Add Overlay */}
                   <button 
-                    onClick={() => addToCart(product)}
-                    className="absolute bottom-0 left-0 right-0 bg-gold text-obsidian py-4 text-[10px] font-bold uppercase tracking-[0.2em] transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 hover:bg-white"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      addToCart(product);
+                    }}
+                    className="absolute bottom-0 left-0 right-0 bg-gold text-obsidian py-3 md:py-4 text-[10px] font-bold uppercase tracking-[0.2em] transform translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 hover:bg-white z-10"
                   >
                     Add to Bag
                   </button>

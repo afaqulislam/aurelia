@@ -16,6 +16,10 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-obsidian text-white font-sans antialiased selection:bg-gold selection:text-obsidian overflow-x-hidden;
     /* Ensure touch targets meet accessibility standards across the board */
