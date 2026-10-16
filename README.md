@@ -12,7 +12,7 @@
 [![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Express](https://img.shields.io/badge/Express.js-Node-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
 [![Gemini](https://img.shields.io/badge/Google_Gemini-AI-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
-[![Deployed on Google Cloud](https://img.shields.io/badge/Deployed-Google_Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://aurelia-luxury-450274679900.asia-southeast1.run.app/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://aurelia-aui.vercel.app)
 
 <br/>
 
@@ -20,9 +20,9 @@
 
 <br/>
 
-### 🌐 [**View Live Demo →**](https://aurelia-luxury-450274679900.asia-southeast1.run.app/)
+### 🌐 [**View Live Demo →**](https://aurelia-aui.vercel.app)
 
-`https://aurelia-luxury-450274679900.asia-southeast1.run.app/`
+`https://aurelia-aui.vercel.app`
 
 <br/>
 
@@ -59,9 +59,9 @@ This platform demonstrates the convergence of **luxury UX design**, **full-stack
 
 | Environment | URL | Status |
 |-------------|-----|--------|
-| **Production** | [aurelia-luxury-450274679900.asia-southeast1.run.app](https://aurelia-luxury-450274679900.asia-southeast1.run.app/) | ✅ Live |
+| **Production** | [aurelia-aui.vercel.app](https://aurelia-aui.vercel.app) | ✅ Live |
 
-> Deployed on **Google Cloud Run** — Asia Southeast region for optimal performance.
+> Deployed on **Google Cloud Run** OR **Vercel** — Asia Southeast region for optimal performance.
 
 ---
 
@@ -268,7 +268,7 @@ gcloud run deploy aurelia \
   --set-env-vars GEMINI_API_KEY=your_key_here
 ```
 
-**Live URL:** `https://aurelia-luxury-450274679900.asia-southeast1.run.app/`
+**Live URL:** `https://aurelia-aui.vercel.app`
 
 ### Alternative — Vercel + Render
 
@@ -294,8 +294,8 @@ Built with precision. Designed with intention.
 
 <div align="center">
 
-**AURELIA** · *Crafted at [Neofyx](https://neofyx.vercel.app)* · Built during [Google Build with AI 2026](https://www.geeksforgeeks.org/event/build-with-ai)
+**AURELIA** · *Crafted at [Neofyx](www.neofyx.com)* · Built during [Google Build with AI 2026](https://www.geeksforgeeks.org/event/build-with-ai)
 
-🌐 **[Live Demo](https://aurelia-luxury-450274679900.asia-southeast1.run.app/)** · 📧 **[Contact](mailto:afaqulislam707@gmail.com)**
+🌐 **[Live Demo](https://aurelia-luxury-450274679900.asia-southeast1.run.app/)** OR 🌐 **[Live Demo](https://aurelia-aui.vercel.app)** · 📧 **[Contact](mailto:afaqulislam707@gmail.com)**
 
 </div>
