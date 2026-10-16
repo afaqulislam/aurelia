@@ -294,7 +294,7 @@ Built with precision. Designed with intention.
 
 <div align="center">
 
-**AURELIA** · *Crafted at [Neofyx](www.neofyx.com)* · Built during [Google Build with AI 2026](https://www.geeksforgeeks.org/event/build-with-ai)
+**AURELIA** · Built during [Google Build with AI 2026](https://www.geeksforgeeks.org/event/build-with-ai)
 
 🌐 **[Live Demo](https://aurelia-luxury-450274679900.asia-southeast1.run.app/)** OR 🌐 **[Live Demo](https://aurelia-aui.vercel.app)** · 📧 **[Contact](mailto:afaqulislam707@gmail.com)**
 
